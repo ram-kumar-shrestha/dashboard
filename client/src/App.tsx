@@ -3,7 +3,7 @@ import React, { useMemo } from "react";
 import { themeSettings } from "./theme";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "@/components/navbar";
+import Navbar from "@/ui/navbar";
 
 const App: React.FC = () => {
   const theme = useMemo(() => createTheme(themeSettings), []);

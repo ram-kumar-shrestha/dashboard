@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { useTheme, Typography, Box } from "@mui/material/";
+import { useTheme, Typography } from "@mui/material/";
 import PixIcon from "@mui/icons-material/Pix";
 import { FlexBetween } from "@/components/FlexBetween";
-import NavItem from "@/components/navbar/NavItem";
+import NavItem from "@/ui/navbar/NavItem";
 
 type Props = {};
 
